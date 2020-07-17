@@ -3,8 +3,62 @@
     padding:0;
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+}
+.flex, .links-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.column{
+    flex-direction: column;
+}
 
-header{
+nav{
+    width: 100vw;
+    height:10vh;
+    background-color:#505050;
+    color:#fff;
+    font:15px "raleway";
+}
+.links-container{
+    position: absolute;
+    top:10vh;
+    left:0;
+    width: 100vw;
+    height: 50vh;
+    background-color: #505050;
+    flex-direction: column;
+}
+.links-none{
+    display: none;
+}
+.links{
+    color: #fff;
+    flex:1;
+    width: 100%;
+}
+.links:active{
+    color: #ff0139;
+    background-color: #fff;
+}
+.menu{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.menu:active{
+    color: #ff0139;
+}
+
+
+
+
+
+
+
+
+section{
     height: 100vh;
     display: flex;
     align-items: center;
