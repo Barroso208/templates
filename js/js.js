@@ -1,12 +1,13 @@
 let linksContainer = document.getElementById("links-container");
 let iconoMenu      = document.getElementById("menu");
-let link1          = document.getElementById("link1");
-let link2          = document.getElementById("link2");
-let link3          = document.getElementById("link3");
-let link4          = document.getElementById("link4");
+const link1          = document.getElementById("link1");
+const link2          = document.getElementById("link2");
+const link3          = document.getElementById("link3");
+const link4          = document.getElementById("link4");
 
 function menu(){
     if(window.screen.width<1090){
+        
         if(linksContainer.className == "links-none"){
             linksContainer.setAttribute("class","links-container");
         }else {

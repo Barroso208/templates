@@ -50,14 +50,6 @@ nav{
 .menu:active{
     color: #ff0139;
 }
-
-
-
-
-
-
-
-
 section{
     height: 100vh;
     display: flex;
@@ -148,4 +140,13 @@ a{
         .section1-link{
             flex:11;
         }
+    .links-none{
+        display: flex;
+    }
+    .links{
+        padding:12px 24px;
+    }
+    .menu{
+        display: none;
+    }
 }
