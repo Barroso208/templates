@@ -2,6 +2,7 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 a{
     text-decoration: none;
@@ -50,7 +51,7 @@ nav{
 .menu:active{
     color: #ff0139;
 }
-section{
+.target{
     height: 100vh;
     display: flex;
     align-items: center;
@@ -129,6 +130,44 @@ a{
     min-width: 20px;
     max-width: 35px;
 }
+
+
+
+
+/* SLIDER FOTOS PRUEBA 1 */
+.headers{
+    height: auto;
+    width: 100%;
+}
+#slider{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: grey;
+}
+.atras, .adelante{
+    padding: 25px;
+    background-color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    border: 2px solid #000;
+}
+.foto-slider{
+    width:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.imagen{
+    width: 70vw;
+
+}
+
+
+
+
+
 @media screen and (min-width: 1090px) {
     .section1-div2{
         background-color: #505050;
