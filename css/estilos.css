@@ -151,6 +151,7 @@ a{
     cursor: pointer;
     text-decoration: none;
     border: 2px solid #000;
+    font:20px "raleway";
 }
 .foto-slider{
     width:auto;
