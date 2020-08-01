@@ -61,3 +61,4 @@ function changeImage(){
 botonAdelante.addEventListener('click',ahead);
 
 botonAtras.addEventListener('click',behind);
+
