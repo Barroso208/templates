@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}
+.flex, .links-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.column{
+    flex-direction: column;
+}
+
+nav{
+    width: 100vw;
+    height:10vh;
+    background-color:#505050;
+    color:#fff;
+    font:15px "raleway";
+}
+nav>div{
+    display: flex;
+    align-items: center;
+}
+nav>div>img{
+    width: 45px;
+}
+
+.contactar{
+    padding:10px 15px;
+    color:#505050;
+    background-color: #01ffc7;
+    cursor: pointer;
+    border-radius:8px;
+}
+.contactar:active{
+    background-color: #ff0139;
+}
+
+
+/* section de tarjetas */
+.targets{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.target{
+    width: 80vw;
+    height: 80vw;
+    background-color: #ff0139;
+    margin:20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.target-title{
+    color:#fff;
+    font:60px 'raleway';
+}
+@media screen and (min-width: 1200px) {
+    .logo, .contactar{
+        font-size:1.5em;
+    }
+    .target{
+        width: 20vw;
+        height: 20vw;
+    }
+}

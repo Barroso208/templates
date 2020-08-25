@@ -1,20 +1,3 @@
-let linksContainer = document.getElementById("links-container");
-let iconoMenu      = document.getElementById("menu");
-
-function menu(){
-    if(window.screen.width<1090){
-        
-        if(linksContainer.className == "links-none"){
-            linksContainer.setAttribute("class","links-container");
-        }else {
-            linksContainer.setAttribute("class","links-none");
-        }
-    }
-}
-iconoMenu.onclick = function(){menu();}
-linksContainer.addEventListener('click',listClick);
-function listClick(e){menu();}
-
 /* SLIDER */
 const botonAtras = document.getElementById("atras");
 let botonAdelante = document.getElementById("adelante");

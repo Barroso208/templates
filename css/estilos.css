@@ -23,34 +23,49 @@ nav{
     color:#fff;
     font:15px "raleway";
 }
-.links-container{
-    position: absolute;
-    top:10vh;
-    left:0;
-    width: 100vw;
-    height: 50vh;
-    background-color: #505050;
-    flex-direction: column;
+nav>div{
+    display: flex;
+    align-items: center;
 }
-.links-none{
-    display: none;
+nav>div>img{
+    width: 45px;
 }
-.links{
-    color: #fff;
-    flex:1;
-    width: 100%;
-}
-.links:active{
-    color: #ff0139;
-    background-color: #fff;
-}
-.menu{
+
+.contactar{
+    padding:10px 15px;
+    color:#505050;
+    background-color: #01ffc7;
     cursor: pointer;
-    text-decoration: underline;
+    border-radius:8px;
 }
-.menu:active{
-    color: #ff0139;
+.contactar:active{
+    background-color: #ff0139;
 }
+.header{
+    height:90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #505050;
+}
+.header-title{
+    color:#fff;
+    text-align: center;
+    font: 50px 'montserrat';
+}
+.header-button{
+    background-color: rgb(255, 255, 0);
+    border-radius: 16px;
+    padding:20px 64px;
+    font:25px 'manrope';
+    color:#000;
+}
+
+
+
+
+
 .target{
     height: 100vh;
     display: flex;
@@ -170,23 +185,20 @@ a{
 
 
 @media screen and (min-width: 1090px) {
+    .header-title{
+        font-size:100px;
+    }
+    .logo, .contactar{
+        font-size:1.5em;
+    }
     .section1-div2{
-        background-color: #505050;
-        }
-        .section1-div2:hover{
-            background-color: #ff0139;
-            box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        }
-        .section1-link{
-            flex:11;
-        }
-    .links-none{
-        display: flex;
+    background-color: #505050;
     }
-    .links{
-        padding:12px 24px;
+    .section1-div2:hover{
+        background-color: #ff0139;
+        box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
-    .menu{
-        display: none;
+    .section1-link{
+        flex:11;
     }
 }
