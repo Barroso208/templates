@@ -39,5 +39,5 @@ function changeImage(){
     }
 }
 /* Eventos para ejecutar las variables que determinan el valor de level y por tanto determinan que imagen se va a cargar */
-$('button.adelante').on('click',ahead);
-$('button.atras').on('click',behind);
+$('img.adelante').on('click',ahead);
+$('img.atras').on('click',behind);
