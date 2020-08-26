@@ -72,7 +72,7 @@ nav>div>img{
     justify-content: space-around;
 }
 .contactar-title{
-    font:2.5em 'montserrat';
+    font:4em 'montserrat';
     color:white;
     font-weight: bold;
 }
@@ -80,136 +80,16 @@ nav>div>img{
     font:1.3em 'lato';
     color:#fff;
 }
-
-
-
-
-
-
-.target{
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-a{
-    text-decoration: none;
-}
-#section1-div2,.section1-div2-div1,
-.link-github{
-    display:flex;
-    align-items: center;
-    justify-content: space-around;
-}
-.section1-div2{
-    background-color: #ff0139;
-    margin: 32px ;
-    max-width: 350px;
-    height: 430px;
-    width: 91.28vw;
-    flex-direction: column;
-    border-radius: 20px;
-}
-/* CARD LINK */
-.section1-link{
-    flex:7;
-    flex-direction: column;
-    display:flex;
-    align-items: center;
-    max-width: 350px;
-    max-height: 400px;
-    width: 91.28vw;
-    height: 100vw;
-}
-/* CARD IMG */
-.section1-img{
-    width: inherit;
-    max-width: inherit;
-    border-radius:19px 19px 0 0 ;
-}
-/* CARD */
-.section1-div2-div1{
-    padding: 16px;
-    flex-direction: column;
-    cursor: pointer;
-    color:#fff;
-    height: 35%;
-}
-/* CARD TITLE */
-.section1-h3{
-    font:20px "raleway";
-    font-weight: bold;
-}
-/* CARD SUBTITLE */
-.section1-h5{
-    font:14px "lato";
-    line-height: 22px;
-    text-align: center;
-}
-/* ENLACE A GITHUB */
-.link-github{
-    flex:1;
-    width: 40vw;
-    flex:2;
-    width: 40vw;
-    max-width: 150px;
-}
-.text-link{
-    font:16px "raleway";
-    color:#fff;
+.link>a{
+    color:#01ffc7;
     text-decoration: underline;
-}
-/* LOGOTIPO */
-.logogithub{
-    width: 7vw;
-    min-width: 20px;
-    max-width: 35px;
-}
-
-
-
-
-/* SLIDER FOTOS PRUEBA 1 */
-.headers{
-    height: auto;
-    width: 100%;
-}
-#slider{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background-color: grey;
-}
-.atras, .adelante{
-    padding: 25px;
-    background-color: #fff;
-    cursor: pointer;
-    text-decoration: none;
-    border: 2px solid #000;
-    font:20px "raleway";
-}
-.foto-slider{
-    width:auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-}
-.imagen{
-    width: 70vw;
 }
 @media screen and (min-width: 1090px) {
     .header-title{
         font-size:100px;
     }
-    .section1-div2{
-    background-color: #505050;
+    #footer{
+        flex-direction: row;
     }
-    .section1-div2:hover{
-        background-color: #ff0139;
-        box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    }
-    .section1-link{
-        flex:11;
-    }
+
 }
