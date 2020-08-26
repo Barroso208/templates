@@ -37,6 +37,8 @@ nav>div>img{
     background-color: #01ffc7;
     cursor: pointer;
     border-radius:8px;
+    font-size: 17px;
+    font-weight:700;
 }
 .contactar:active{
     background-color: #ff0139;
@@ -61,6 +63,24 @@ nav>div>img{
     font:25px 'manrope';
     color:#000;
 }
+#footer{
+    height: 70vh;
+    background-color: #505050;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.contactar-title{
+    font:2.5em 'montserrat';
+    color:white;
+    font-weight: bold;
+}
+.link{
+    font:1.3em 'lato';
+    color:#fff;
+}
+
 
 
 
@@ -177,19 +197,10 @@ a{
 }
 .imagen{
     width: 70vw;
-
 }
-
-
-
-
-
 @media screen and (min-width: 1090px) {
     .header-title{
         font-size:100px;
-    }
-    .logo, .contactar{
-        font-size:1.5em;
     }
     .section1-div2{
     background-color: #505050;

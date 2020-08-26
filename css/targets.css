@@ -30,7 +30,6 @@ nav>div{
 nav>div>img{
     width: 45px;
 }
-
 .contactar{
     padding:10px 15px;
     color:#505050;
@@ -42,32 +41,4 @@ nav>div>img{
 }
 .contactar:active{
     background-color: #ff0139;
-}
-
-
-/* section de tarjetas */
-.targets{
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.target{
-    width: 80vw;
-    height: 80vw;
-    background-color: #ff0139;
-    margin:20px;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.target-title{
-    color:#fff;
-    font:55px 'raleway';
-}
-@media screen and (min-width: 1200px) {
-    .target{
-        width: 18vw;
-        height: 18vw;
-    }
 }
