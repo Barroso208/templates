@@ -47,6 +47,7 @@ nav>div>img{
 
 /* section de tarjetas */
 .targets{
+    background-color: #505050;
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -66,6 +67,9 @@ nav>div>img{
     font:55px 'raleway';
 }
 @media screen and (min-width: 1200px) {
+    .targets{
+        height: 90vh;
+    }
     .target{
         width: 18vw;
         height: 18vw;

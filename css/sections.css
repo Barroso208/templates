@@ -42,3 +42,74 @@ nav>div>img{
 .contactar:active{
     background-color: #ff0139;
 }
+
+header{
+    height: 90vh;
+    background-color: #505050;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.header-title{
+    font:5em 'montserrat';
+    color:#fff;
+}
+.flecha{
+    width: 4em;
+}
+/* section-a */
+.section-a{
+    background-color: blue;
+    height: auto;
+    display:grid;
+    grid-template-areas: 
+    'div-b'
+    'div-a';
+}
+.div-a,.div-b{
+    width: 100vw;
+    height: 90vh;
+    color:#fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.div-a{
+    background-color: #060038;
+    grid-area: div-a;
+}
+.div-b{
+    background-color: #505050;
+    grid-area: div-b;
+}
+.section-a-title{
+    font:2em 'montserrat';
+    padding:16px 0 0 0;
+}
+.section-a-title-b{
+    font:3em 'montserrat';
+}
+.see-code{
+    font:1.3em 'raleway';
+    font-weight: 700;
+    padding: 12px 16px;
+    background-color: #01ffc7;
+    color: #505050;
+    border-radius: 8px;
+}
+.see-code:hover{
+    background-color: #ff0139;
+    color: #01ffc7;
+}
+@media screen and (min-width:1090px){
+    .section-a{
+        height:90vh;
+        grid-template-areas: 
+        'div-a div-b';
+    }
+    .div-a,.div-b{
+        width: 50vw;
+    }
+}
