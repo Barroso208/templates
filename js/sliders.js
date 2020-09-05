@@ -3,6 +3,7 @@ let imagen = document.getElementById("imagen");
 let level = 1;
 
 
+
 /* Funciones para determinar que valor debe tener la variable level. */
 function ahead(){
     level++;
@@ -17,6 +18,13 @@ function behind(){
         level = 4;
     }
     changeImage();
+}
+function eligiendoFoto(element){
+    let clases = element.className.split(' ');
+    if (clases[1]!==undefined){
+        level = parseInt(clases[1]);
+        changeImage();
+    }
 }
 /* Función para cargar la imagen correspondiente a cada número */
 function changeImage(){
@@ -41,3 +49,4 @@ function changeImage(){
 /* Eventos para ejecutar las variables que determinan el valor de level y por tanto determinan que imagen se va a cargar */
 $('img.adelante').on('click',ahead);
 $('img.atras').on('click',behind);
+$('div.minifotos').on('mouseover',function(e) {eligiendoFoto(e.target);});

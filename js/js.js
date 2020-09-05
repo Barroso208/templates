@@ -5,6 +5,14 @@ let imagen = document.getElementById("imagen");
 let level = 1;
 
 
+$('#imagen619').on('mouseover',function(e) {
+    level = 1;
+    changeImage();
+});
+$('a#imagen630').on('mouseover',function(e) {
+    level = 2;
+    changeImage();
+});
 /* Funciones para determinar que valor debe tener la variable level. */
 function ahead(){
     level++;
