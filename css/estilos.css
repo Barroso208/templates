@@ -76,6 +76,16 @@ nav>div>img{
     color:white;
     font-weight: bold;
 }
+.mapAndSocial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.mapa{
+    height: 40vh;
+    width: 100vw;
+}
 .link{
     font:1.3em 'lato';
     color:#fff;
@@ -91,5 +101,8 @@ nav>div>img{
     #footer{
         flex-direction: row;
     }
-
+    .mapa{
+        width: 40vw;
+        height: 25vw
+    }
 }
