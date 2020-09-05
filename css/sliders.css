@@ -147,6 +147,7 @@ header{
     }
     #slider{
         width: 50vw;
+        height: 70%;
     }
     .minifotos{
         width: 50%;
@@ -156,14 +157,27 @@ header{
     }
     .minifoto{
         width: 75px;
-        padding: 5px;
+        padding: 10px;
     }
     .minifoto:hover{
         width: 80px;
-        padding: 0;
+        padding: 5px;
+        background-color: #ff01388f;
+    }
+    .atras,.adelante{
+        width: 3em;
+    }
+    .atras{
+        position: relative;
+        left: 40px;
+    }
+    .adelante{
+        position: relative;
+        right: 40px;
     }
     .imagen{
-        width: 40vw;
+        width: 100%;
+        height: auto;
     }
 }
 
