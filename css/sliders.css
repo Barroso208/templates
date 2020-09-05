@@ -119,12 +119,12 @@ header{
     width: 2em;
 }
 .atras{
-    position: relative;
-    left: 30px;
+    position: absolute;
+    left: 15px;
 }
 .adelante{
-    position: relative;
-    right: 30px;
+    position: absolute;
+    right: 15px;
 }
 .prev {
     transform: rotate(90deg);
@@ -132,11 +132,9 @@ header{
 .next {
     transform: rotate(-90deg);
 }
-.foto-slider{
-    width:auto;
-}
+
 .imagen{
-    width: 95vw;
+    width: 100vw;
 }
 @media screen and (min-width:1090px){
     .section-a{
