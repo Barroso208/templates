@@ -4,6 +4,7 @@
     box-sizing: border-box;
     overflow-x: hidden;
 }
+html{scroll-behavior: smooth;}
 a{
     text-decoration: none;
 }
@@ -23,14 +24,16 @@ nav{
     color:#fff;
     font:15px "raleway";
 }
-nav>div{
+nav>a{
     display: flex;
     align-items: center;
 }
-nav>div>img{
+nav>a>img{
     width: 45px;
 }
-
+.logo{
+    color:#fff;
+}
 .contactar{
     padding:10px 15px;
     color:#505050;
